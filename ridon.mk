@@ -20,7 +20,7 @@ $(call inherit-product, device/xiaomi/libra/full_libra.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_libra
+PRODUCT_NAME := ridon_libra
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=libra
